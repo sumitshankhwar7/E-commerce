@@ -29,9 +29,9 @@ function Footer() {
           <img src={whatsapp_icon} alt="" />
         </div>
       </div>
-      <div className="footer-copyright flex justify-center items-center gap-[30px] w-full mb-[30px] text-[#1a1a1a] text-[20px]">
+      <div className="footer-copyright flex flex-col justify-center items-center gap-[30px] w-full mb-[30px] text-[#1a1a1a] text-[20px]">
         <hr className="w-[80%] border-none rounded-[10px] h-[3px] bg-[#c7c7c7]" />
-        <p>Copyright @ 2026 - All Right Reserved</p>
+        <p className="text-xl">Copyright @ 2026 - All Right Reserved</p>
       </div>
     </div>
   );
